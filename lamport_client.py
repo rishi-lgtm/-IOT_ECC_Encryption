@@ -11,7 +11,7 @@ import requests
 
 r1 = requests.post("http://localhost:5001/t1", data={})
 response=r1.text
-print(response)
+print(response)sakjdk
 point,public_key = response.split()
 public_key=int(public_key)
 point=int(point)
